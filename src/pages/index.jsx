@@ -175,6 +175,8 @@ function Index() {
         <>
             <MainHeader />
             <div className={styles.mainPage}>
+                <br></br>
+                <br></br>
                 <p id="speakers" className={styles.text_shadows}>{speakerEventText}</p>
                 <div>
                     {speakerEventResults}

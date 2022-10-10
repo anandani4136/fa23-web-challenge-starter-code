@@ -10,9 +10,7 @@ import {
     MDBNavbarLink,
     MDBNavbarToggler,
     MDBContainer,
-    MDBIcon,
-    MDBCollapse,
-    MDBBtn
+    MDBCollapse
   } from 'mdb-react-ui-kit';
 
 function MainHeader() {
