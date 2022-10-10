@@ -1,3 +1,229 @@
 .myParagraph {
     color: red;
 }
+.header{
+    position: fixed;
+    min-height: 100px;
+    min-width: 100%;
+}
+.navbar{
+    background-image: url("https://www.hackillinois.org/static/media/cake_layer_three.69d6fa90.svg");
+    min-height: 100px;
+    min-width: 100%;
+    position: fixed;
+    z-index: 10;
+    padding: 10px 0;
+    background-size: cover;
+    background-color: antiquewhite;
+}
+
+.navBarLink{
+    color: black;
+    // text-align: center;
+    // margin-right: 60vw;
+    font-family: "Montserrat", sans-serif;
+    
+    // font-size: large;
+}
+
+.navBarLink2{
+    color: black;
+    margin-top: 20px;
+    margin-left: 10vw;
+    // text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar{
+        background-image: url("https://www.hackillinois.org/static/media/cake_layer_one.0ec0ebdf.svg");
+    }
+    .navBarLink{
+        margin-left: 5vw;
+    }
+    .navBarLink2{
+        margin-left: 5vw;
+    }
+}
+
+.hackIllinois {
+    background-image: url("https://www.hackillinois.org/static/media/logo.340b1373.svg");
+    width: 206px;
+    height: 65px;
+    background-size: cover;
+}
+
+.hackIllinois2 {
+    background-image: url("https://www.hackillinois.org/static/media/logo.340b1373.svg");
+    width: 206px;
+    height: 65px;
+    background-size: cover;
+}
+
+.hackIllinoisBicycle {
+    background-image: url("https://www.hackillinois.org/static/media/scooter.a6c0f79a.svg");
+    width: 92px;
+    height: 65px;
+    background-size: cover;
+}
+
+.eventTitle {
+    font-family: "Montserrat", serif;
+    text-align: center;
+    font-size: 45px;
+}
+
+.eventDesc {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.eventLink {
+    font-family: "Arial", sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 25px;
+    place-items: center;
+}
+
+.eventFact{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.eventSponsor {
+    font-family: "Arial", sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+
+.eventTime {
+    font-family: "Arial", sans-serif;
+    text-decoration: underline;
+    font-weight: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.gridBox {
+    display: grid;
+    place-items: center;
+}
+
+.containerDesign {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 35s ease infinite;
+  width: 50vw;
+  border: 5px solid rgb(138, 36, 96);
+  border-radius: 18px;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.mainPage{
+    background-color: #E8D7A5;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.text_shadows {
+  text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
+    9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: calc(2rem + 5vw);
+  text-align: center;
+  margin: 0;
+  color: var(--color-primary);
+//   color: transparent;
+//   background-color: white;
+  //background-clip: text;
+  animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+  letter-spacing: 0.4rem;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: none;
+  }
+  10% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  20% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  30% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  40% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  50% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  60% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
+      12px 12px 0 var(--color-quinary);
+  }
+  70% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
+  }
+  80% {
+    text-shadow: 3px 3px 0 var(--color-secondary),
+      6px 6px 0 var(--color-tertiary);
+  }
+  90% {
+    text-shadow: 3px 3px 0 var(--color-secondary);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  40% {
+    transform: translate(-12px, -12px);
+  }
+  50% {
+    transform: translate(-12px, -12px);
+  }
+  60% {
+    transform: translate(-12px, -12px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
